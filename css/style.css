@@ -1,27 +1,27 @@
 body {
 	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
 	font-size: small;
-	background-color: #274e23;
+	/*background-color: #274e23;*/
 }
 
 #allcontent {
 	padding: 5px 15px;
-	background-color: #CC9;
+	/*background-color: #CC9;*/
 	color: #033;
 }
 
-.callcontainer {
-	margin-top: 20px;
+.calldescription {
+	margin-top: 10px;
+}
+
+.intro {
+	padding-top: 20px;
 }
 
 .logo {
 	background-image: url("../img/piccolo.gif");
 	background-repeat: no-repeat;
 	height: 75px;
-}
-
-h1 {
-	margin-top: 0px;
 }
 
 .ideas {
@@ -31,6 +31,15 @@ h1 {
 	height: 100px;
 	font-size: 2em;
 }
+
+
+.action {
+	border-width: 1px;
+	border-color: grey;
+	border-style: dotted;
+
+}
+
 
 
 
