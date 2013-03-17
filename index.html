@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
-<title>Туры для школьников</title>
-<meta name="description" content="School tours in Russia"> 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
 <head>
+
+	<title>Туры для школьников</title>
+	<meta name="description" content="School tours in Russia"> 
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.counter-analog.css">
 
 	<title>Eco tour</title>
 </head>
@@ -58,19 +58,24 @@
 			<div class="span8">
 				<h4>Кто мы такие?</h4>
 				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое. Лежа на панцирнотвердой спине, он видел, стоило ему приподнять голову, свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого еле держалось готовое вот-вот окончательно сползти одеяло.</p>
+
 			</div>
 			<div class="span4">
 				<div class="action">
 					<p>Приведи друга - езжай в Казань!</p>
-
+				<span class="counter counter-analog">10:10</span>
 				</div>
 
 				<div class="action">
 					<p>Едешь в Казань? Получи друга!</p>
+				<span class="counter counter-analog">10:14:50:10</span>
+
 				</div>
 
 				<div class="action">
 					<p>За три Питера - Колыма в подарок!</p>
+				<span class="counter counter-analog">21:14:10</span>
+
 				</div>
 
 				<div class="application">
@@ -82,5 +87,15 @@
 	</div>
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.counter.js"></script>
+
+	<script type="text/javascript">
+        $('.counter').counter({
+        	direction: 'down',
+        	format: "30:23:59:59",
+			interval: 1000
+        });
+
+	</script>
 </body>
 </html>
