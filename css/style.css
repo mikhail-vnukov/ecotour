@@ -34,15 +34,38 @@ body {
 
 
 .action {
-	border-width: 1px;
+	/*border-width: 1px;
 	border-color: grey;
-	border-style: dotted;
+	border-style: dotted;*/
+	margin-top: 40px;
+	line-height: 25px;
+}
 
+.counter {
+	margin-top: 10px;
 }
 
 .reasons{
-	
+	margin-top: 50px;
 }
 
+.sidebar {
+	border-left: thin dotted grey;
+	margin-left: 19px;
+}
+
+.bait {
+	color: rgb(255, 61, 0);
+}
+h4.bait {
+	text-decoration: underline;
+}
+
+.comments {
+	margin-top: 20px;
+}
+.additional-comment{
+	display: none;
+}
 
 
