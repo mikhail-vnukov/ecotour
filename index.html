@@ -46,7 +46,11 @@
 			</div>
 			<div class="sidebar span4">
 				<div class="callcontainer text-center">
-					<button class="btn btn-primary btn-large">Заказать звонок</button>
+					<a href="#myModal" role="button" class="btn btn-primary btn-large" data-toggle="modal">Заказать звонок</a>
+
+
+
+
 					<p class="calldescription lead">Закажите звонок и наши опытные менеджеры свяжутся с вами в ближайшее время</p>
 				</div>
 
@@ -63,18 +67,18 @@
 			<div class="span4">
 				<div class="action">
 					<p>Приведи друга - езжай в Казань!</p>
-				<span class="counter counter-analog">10:10</span>
+					<span class="counter counter-analog">10:10</span>
 				</div>
 
 				<div class="action">
 					<p>Едешь в Казань? Получи друга!</p>
-				<span class="counter counter-analog">10:14:50:10</span>
+					<span class="counter counter-analog">10:14:50:10</span>
 
 				</div>
 
 				<div class="action">
 					<p>За три Питера - Колыма в подарок!</p>
-				<span class="counter counter-analog">21:14:10</span>
+					<span class="counter counter-analog">21:14:10</span>
 
 				</div>
 
@@ -85,17 +89,67 @@
 			</div>
 		</div>
 	</div>
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.counter.js"></script>
 
-	<script type="text/javascript">
-        $('.counter').counter({
-        	direction: 'down',
-        	format: "30:23:59:59",
-			interval: 1000
-        });
+	<!-- Modal. This window popups on button click-->
+	<div id="myModal"
+	tabindex="-1" 
+	class="modal hide fade"
+	role="dialog" 
+	aria-labelledby="myModalLabel" 
+	aria-hidden="true">
 
-	</script>
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">Заказать звонок</h3>
+	</div>
+	<div class="modal-body text-left">
+		<form class="form-horizontal">
+
+			<div class="control-group">
+				<label class="control-label">Ваше имя</label>
+				<div class="controls">
+					<input type="text" placeholder="имя"/>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label">Ваш телефон</label>
+				<div class="controls">
+					<input type="text" placeholder="телефон"/>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label">Город</label>
+				<div class="controls">
+					<input type="text" placeholder="город"/>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label">Электронная почта</label>
+				<div class="controls">
+					<input type="text" placeholder="e-mail"/>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+		<button class="btn btn-primary">Заказать</button>
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.counter.js"></script>
+
+<script type="text/javascript">
+$('.counter').counter({
+	direction: 'down',
+	format: "30:23:59:59",
+	interval: 1000
+});
+
+</script>
 </body>
 </html>
