@@ -1,2 +1,3 @@
-
+*.doc
+*.psd
 .DS_Store
