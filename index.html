@@ -280,11 +280,14 @@
 	});
 
 	$('.comment').each(function() {
-		var that = this;
-		$(that).children(".summary-comment").click(function(){
-			$('.additional-comment').slideUp('slow');
-			$(that).children('.additional-comment').slideToggle('slow');
+		var additional = $(this).children('.additional-comment');
 
+		$(this).children(".summary-comment").click(function(){
+			var shown = additional.is(":visible");
+			$('.additional-comment').slideUp('slow');
+			if (!shown) {
+				additional.slideDown('slow');	
+			} 
 		});
 	});
 
