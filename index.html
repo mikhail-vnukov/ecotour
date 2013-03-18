@@ -189,14 +189,16 @@
 						<div class="control-group">
 							<label class="control-label">Ваш телефон</label>
 							<div class="controls">
-								<input type="text" placeholder="телефон"/>
+								<input type="text" placeholder="телефон" onblue="check($(this));"/>
+							    <span class="help-inline validation"></span>
 							</div>
 						</div>
 
 						<div class="control-group">
 							<label class="control-label">Электронная почта</label>
 							<div class="controls">
-								<input type="text" placeholder="e-mail"/>
+								<input type="text" placeholder="e-mail" onblur="checkEmail($(this))"/>
+							    <span class="help-inline validation"></span>
 							</div>
 						</div>
 						<div class="control-group">
@@ -209,7 +211,7 @@
 								</select>
 							</div>
 						</div>
-						<button class="btn btn-primary">Заказать звонок</button>
+						<button type="button" class="submit btn btn-primary">Заказать звонок</button>
 					</form>
 				</div>
 
@@ -240,6 +242,7 @@
 					<label class="control-label">Ваш телефон</label>
 					<div class="controls">
 						<input type="text" placeholder="телефон"/>
+					    <span class="help-inline">Поле телефон обязательно для заполнения</span>
 					</div>
 				</div>
 
@@ -247,6 +250,7 @@
 					<label class="control-label">Электронная почта</label>
 					<div class="controls">
 						<input type="text" placeholder="e-mail"/>
+					    <span class="help-inline">Please correct the error</span>
 					</div>
 				</div>
 				<div class="control-group">
@@ -264,33 +268,13 @@
 		</div>
 		<div class="modal-footer">
 			<button class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
-			<button class="btn btn-primary">Заказать</button>
+			<button class="btn btn-primary" onclick="submit()">Заказать</button>
 		</div>
 	</div>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/jquery.counter.js"></script>
-
-	<script type="text/javascript">
-	$('.counter').counter({
-		direction: 'down',
-		format: "30:23:59:59",
-		interval: 1000
-	});
-
-	$('.comment').each(function() {
-		var additional = $(this).children('.additional-comment');
-
-		$(this).children(".summary-comment").click(function(){
-			var shown = additional.is(":visible");
-			$('.additional-comment').slideUp('slow');
-			if (!shown) {
-				additional.slideDown('slow');	
-			} 
-		});
-	});
-
-	</script>
+	<script src="js/script.js"></script>
 </body>
 </html>

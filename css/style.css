@@ -79,3 +79,8 @@ h4.bait {
 .span8 h4{
 	text-align: center;
 }
+
+/**  FORM CLASSES **/
+.validation.help-inline {
+	display: none;
+}
