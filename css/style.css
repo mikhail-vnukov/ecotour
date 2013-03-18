@@ -62,10 +62,20 @@ h4.bait {
 }
 
 .comments {
-	margin-top: 20px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 .additional-comment{
 	display: none;
 }
+.summary-comment{
+	font-style: italic;
 
+}
+.author{
+	margin-top: 20px;
+}
 
+.span8 h4{
+	text-align: center;
+}
