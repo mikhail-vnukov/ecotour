@@ -125,10 +125,10 @@
 				<div class="comments"> 
 					<h4 class="bait">Отзывы наших клиентов</h4>
 					<div class="comment">
-		    			<p class="summary-comment">Очень <a href="javascript:void(0)">хорошие...</a></p>
-    					<p class="additional-comment">
-    						проводники! Никогда еще поездка на колыму не была такой комфортной.
-    					</p>
+						<p class="summary-comment">Очень <a href="javascript:void(0)">хорошие...</a></p>
+						<p class="additional-comment">
+							проводники! Никогда еще поездка на колыму не была такой комфортной.
+						</p>
 					</div>
 				</div>
 				<div class="application">
@@ -147,15 +147,19 @@
 						</div>
 
 						<div class="control-group">
-							<label class="control-label">Город</label>
-							<div class="controls">
-								<input type="text" placeholder="город"/>
-							</div>
-						</div>
-						<div class="control-group">
 							<label class="control-label">Электронная почта</label>
 							<div class="controls">
 								<input type="text" placeholder="e-mail"/>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label">Город</label>
+							<div class="controls dropdown">
+								<select>
+									<option>Санкт-Петербург</option>
+									<option>Москва</option>
+									<option>Казань</option>
+								</select>
 							</div>
 						</div>
 						<button class="btn btn-primary">Заказать звонок</button>
@@ -180,7 +184,7 @@
 			<h3 id="myModalLabel">Заказать звонок</h3>
 		</div>
 		<div class="modal-body text-left">
-			<form class="form-horizontal">
+		<form class="form-horizontal">
 
 				<div class="control-group">
 					<label class="control-label">Ваше имя</label>
@@ -196,15 +200,19 @@
 				</div>
 
 				<div class="control-group">
-					<label class="control-label">Город</label>
-					<div class="controls">
-						<input type="text" placeholder="город"/>
-					</div>
-				</div>
-				<div class="control-group">
 					<label class="control-label">Электронная почта</label>
 					<div class="controls">
 						<input type="text" placeholder="e-mail"/>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Город</label>
+					<div class="controls">
+						<select>
+							<option>Санкт-Петербург</option>
+							<option>Москва</option>
+							<option>Казань</option>
+						</select>
 					</div>
 				</div>
 
@@ -217,19 +225,19 @@
 	</div>
 
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/jquery.counter.js"></script>
 
 <script type="text/javascript">
-	$('.counter').counter({
-		direction: 'down',
-		format: "30:23:59:59",
-		interval: 1000
-	});
+$('.counter').counter({
+	direction: 'down',
+	format: "30:23:59:59",
+	interval: 1000
+});
 
-	$('.summary-comment').click(function(){
-	    $('.additional-comment').slideToggle('slow');
-	});
+$('.summary-comment').click(function(){
+	$('.additional-comment').slideToggle('slow');
+});
 
 </script>
 </body>
