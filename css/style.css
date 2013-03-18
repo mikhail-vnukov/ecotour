@@ -1,13 +1,13 @@
 body {
 	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
 	font-size: small;
-	/*background-color: #274e23;*/
+	background-color: #f7f5f5;
 }
 
 #allcontent {
 	padding: 5px 15px;
-	/*background-color: #CC9;*/
-	color: #033;
+	background-color: #f7f5f5;
+	
 }
 
 .calldescription {
@@ -55,7 +55,7 @@ body {
 }
 
 .bait {
-	color: rgb(255, 61, 0);
+	color: rgb(22, 141, 117);
 }
 h4.bait {
 	text-decoration: underline;
@@ -78,4 +78,14 @@ h4.bait {
 
 .span8 h4{
 	text-align: center;
+	margin-bottom: 30px;
+	color: rgb(22, 141, 117);
+}
+
+.step{
+	margin-left: 15px;
+}
+.icon-arrow-right{
+	position: center;
+
 }
