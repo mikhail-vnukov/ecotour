@@ -11,7 +11,18 @@ body {
 }
 
 .calldescription {
-	margin-top: 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: medium;
+
+}
+
+.sidecheck.well{
+	margin-bottom: 10px;
+	margin-top: 15px;
+	color: #1f6377;
+	font-weight: bold;
+	text-align: center;
 }
 
 .intro {
@@ -50,15 +61,19 @@ body {
 }
 
 .sidebar {
-	border-left: thin dotted grey;
+	/*border-left: thin dotted grey;*/
 	margin-left: 19px;
 }
 
 .bait {
-	color: rgb(22, 141, 117);
+	color: rgb(233, 21, 21);
 }
 h4.bait {
 	text-decoration: underline;
+}
+
+.info{
+	color: #1f6377;
 }
 
 .comments {
@@ -79,7 +94,7 @@ h4.bait {
 .span8 h4{
 	text-align: center;
 	margin-bottom: 30px;
-	color: rgb(22, 141, 117);
+	color: #1f6377;
 }
 
 .step{
@@ -89,3 +104,54 @@ h4.bait {
 	position: center;
 
 }
+a {
+color:#1f6377;
+text-decoration:none
+}
+a:active {
+color:#1f6377;
+text-decoration:none
+}
+a:visited {
+color:#5bc0de;
+text-decoration:none
+}
+a:hover {
+color:#666;
+text-decoration: underline
+}
+ 
+.aim{
+	border: solid thin rgb(233, 21, 21);
+	margin-left: 0px;
+	/*padding-left: 10px;
+	padding-right: 0px;*/
+	margin-top: 40px;
+}
+
+.footerone{
+	margin-top: 50px;
+}
+
+.princips-list li {
+	list-style: none;
+}
+
+.princips-list li, .reasons-list li {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.well-large{
+	margin-top: 70px;
+}
+
+/*** FORM STYLES ***/
+/*.application .control-group {
+	width: 120px;
+
+}
+
+.application .controls {
+	margin-left: 150px;
+}*/
