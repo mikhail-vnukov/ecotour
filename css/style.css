@@ -1,13 +1,66 @@
+
+/** Commmon overloading **/
+
+a {
+	text-decoration:none
+}
+
+a:active {
+	text-decoration:none
+}
+
+a:visited {
+	text-decoration:none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+.well-large {
+	margin-top: 70px;
+}
+
+.well-large {
+	margin-top: 70px;
+}
+
+.well {
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
 body {
 	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
 	font-size: small;
-	background-color: #f7f5f5;
 }
+
+/** end of common **/
 
 #allcontent {
 	padding: 5px 15px;
-	background-color: #f7f5f5;
-	
+/*	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+	border-top: 0;*/
+}
+
+
+/** Header **/
+
+.center-header {
+	margin-left: 80px;
+}
+
+.header {
+	height: 120px;
+	background-color: red;
+
 }
 
 .calldescription {
@@ -20,19 +73,19 @@ body {
 .sidecheck.well{
 	margin-bottom: 10px;
 	margin-top: 15px;
-	color: #1f6377;
 	font-weight: bold;
 	text-align: center;
 }
 
-.intro {
-	padding-top: 20px;
+
+.sidechecks {
+	width: 250px;
 }
 
-.logo {
-	background-image: url("../img/toyota.gif");
-	background-repeat: no-repeat;
-	height: 75px;
+.intro {
+	padding-top: 20px;
+	margin-top: 20px;
+	width: 920px;
 }
 
 .ideas {
@@ -45,9 +98,6 @@ body {
 
 
 .action {
-	/*border-width: 1px;
-	border-color: grey;
-	border-style: dotted;*/
 	margin-top: 40px;
 	line-height: 25px;
 }
@@ -56,45 +106,36 @@ body {
 	margin-top: 10px;
 }
 
-.reasons{
+.reasons {
 	margin-top: 50px;
 }
 
 .sidebar {
-	/*border-left: thin dotted grey;*/
 	margin-left: 19px;
 }
 
-.bait {
-	color: rgb(233, 21, 21);
-}
 h4.bait {
 	text-decoration: underline;
-}
-
-.info{
-	color: #1f6377;
 }
 
 .comments {
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-.additional-comment{
+.additional-comment {
 	display: none;
 }
-.summary-comment{
+.summary-comment {
 	font-style: italic;
 
 }
-.author{
+.author {
 	margin-top: 20px;
 }
 
-.span8 h4{
+.span8 h4 {
 	text-align: center;
 	margin-bottom: 30px;
-	color: #1f6377;
 }
 
 .step{
@@ -104,34 +145,18 @@ h4.bait {
 	position: center;
 
 }
-a {
-color:#1f6377;
-text-decoration:none
-}
-a:active {
-color:#1f6377;
-text-decoration:none
-}
-a:visited {
-color:#5bc0de;
-text-decoration:none
-}
-a:hover {
-color:#666;
-text-decoration: underline
-}
  
+ /** Verse content **/
+ .verse-content {
+ 	padding: 0 15px;
+ }
+
 .aim{
-	border: solid thin rgb(233, 21, 21);
-	margin-left: 0px;
-	/*padding-left: 10px;
-	padding-right: 0px;*/
+	margin-left: 0;
 	margin-top: 40px;
+	padding: 0 10px;
 }
 
-.footerone{
-	margin-top: 50px;
-}
 
 .princips-list li {
 	list-style: none;
@@ -142,16 +167,25 @@ text-decoration: underline
 	margin-bottom: 7px;
 }
 
-.well-large{
-	margin-top: 70px;
+/** footerone **/ 
+
+.footerone{
+	margin-top: 50px;
 }
 
-/*** FORM STYLES ***/
-/*.application .control-group {
-	width: 120px;
-
+.step {
+	width: 125px;
+	float: left;
+	margin-left: 25px;
 }
 
-.application .controls {
-	margin-left: 150px;
-}*/
+
+/** footer **/
+
+.footer {
+	height: 60px;
+	background-color: red;
+}
+.footer p {
+	margin: 20px 0;
+}

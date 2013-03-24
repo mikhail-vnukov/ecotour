@@ -1,0 +1,52 @@
+body {
+	background-color: #f7f5f5;
+}
+
+#allcontent {
+	background-color: #f7f5f5;
+}
+
+.sidecheck.well{
+	color: #1f6377;
+}
+
+.sidechecks {
+	width: 250px;
+}
+
+.bait {
+	color: rgb(233, 21, 21);
+}
+
+
+.info{
+	color: #1f6377;
+}
+
+.span8 h4{
+	color: #1f6377;
+}
+
+a {
+	color:#1f6377;
+}
+
+a:active {
+	color:#1f6377;
+}
+
+a:visited {
+	color:#5bc0de;
+}
+
+a:hover {
+	color:#666;
+}
+
+.aim {
+	border: solid thin rgb(233, 21, 21);
+}
+
+#allcontent {
+	background-color: 
+}
