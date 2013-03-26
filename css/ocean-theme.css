@@ -1,0 +1,113 @@
+body {
+	background-color: #458a99;
+	color: rgb(18, 57, 68);
+	font-size: 16px;
+	/*background-image: url(../photo/bg.jpg); 
+margin: 0; 
+padding: 0; 
+background-attachment: fixed; 
+background-position: center top;*/ 
+}
+
+#allcontent {
+	background-color: rgba(100, 230, 219, 0.5);
+}
+
+.sidecheck.well{
+	color: #174b5a;
+	background-color: rgb(242, 254, 255);
+	border: outset #458a99;
+	margin-top: 0;
+}
+
+.header {
+	background-color: #ddf0f2;
+
+}
+
+.logo{
+	background-image: url("../img/logo-ocean.gif");
+}
+
+.center-text{
+	color: #458a99;
+	
+}
+.call-top{
+	color: #2f96b4;
+}
+
+.verse-content{
+	background-color: #ddf0f2;
+}
+.bait {
+	color: #da4f49;
+}
+
+
+
+
+}
+.point{
+	color: #174b5a;
+	text-align: center;
+}
+
+a {
+	color: rgb(18, 57, 68);
+}
+
+a:active {
+	color:#1f6377;
+}
+
+a:visited {
+	color:#5bc0de;
+}
+
+a:hover {
+	color:#666;
+}
+
+.aim {
+	border: outset medium #bd431e;
+	background-color: rgb(242, 254, 255);
+}
+
+.intro {
+	background-color: #ddf0f2;
+}
+
+.footer{
+	background-color: #ddf0f2;
+}
+
+.action{
+	background-color: rgba(100, 230, 219, 0.18);
+	border: medium #458a99 outset;
+	color: rgb(18, 57, 68);
+	font-size: 16px;
+
+}
+
+.actions.well{
+	background-color: #ddf0f2;
+
+}
+
+.actiontitle{
+	text-decoration: underline;
+}
+
+.reasons{
+	border-top: thin dotted gray;
+	border-bottom: thin dotted gray;
+}
+
+.comments{
+	 background-color: #ddf0f2;
+}
+
+.application{
+	background-color: rgb(242, 254, 255);
+}

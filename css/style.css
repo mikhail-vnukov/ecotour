@@ -53,14 +53,36 @@ body {
 
 /** Header **/
 
+.logo{
+	width: 174px;
+	height: 100px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+}
 .center-header {
 	margin-left: 80px;
+	padding-top: 35px;
 }
 
 .header {
 	height: 120px;
 	background-color: red;
+}
 
+.center-text {
+	margin-top: 15px;
+}
+
+
+.call-top{
+font-weight: bold;
+font-size: 22px;
+/*padding-right: 60px;*/
+margin-top: 7px;
+
+}
+.call-top-text{
+	padding-top: 7px;
 }
 
 .calldescription {
@@ -70,22 +92,31 @@ body {
 
 }
 
-.sidecheck.well{
-	margin-bottom: 10px;
+/** sidechecks **/
+.sidecheck {
+	margin-bottom: 15px;
 	margin-top: 15px;
 	font-weight: bold;
 	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 14px;
 }
 
+.sidecheck img {
+	float: left;
+	padding-left: 5px;
+}
 
 .sidechecks {
 	width: 250px;
+
 }
 
 .intro {
 	padding-top: 20px;
-	margin-top: 20px;
-	width: 920px;
+	margin-top: 12px;
+	width: 936px;
 }
 
 .ideas {
@@ -96,11 +127,23 @@ body {
 	font-size: 2em;
 }
 
+.point{
+	text-align: center;
+}
+
+.actions{
+	padding: 0;
+
+}
 
 .action {
 	margin-top: 40px;
+	margin-right: 8px;
+	margin-left: 8px;
 	line-height: 25px;
+
 }
+
 
 .counter {
 	margin-top: 10px;
@@ -154,17 +197,18 @@ h4.bait {
 .aim{
 	margin-left: 0;
 	margin-top: 40px;
-	padding: 0 10px;
+	padding: 10px 20px;
 }
 
 
-.princips-list li {
-	list-style: none;
+li{
+	list-style-type: none;
 }
 
 .princips-list li, .reasons-list li {
-	margin-top: 7px;
-	margin-bottom: 7px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
 }
 
 /** footerone **/ 
@@ -183,9 +227,13 @@ h4.bait {
 /** footer **/
 
 .footer {
-	height: 60px;
+	height: 120px;
 	background-color: red;
 }
 .footer p {
 	margin: 20px 0;
+}
+
+.solidtext{
+	font-weight: bold;
 }
