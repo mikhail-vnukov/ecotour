@@ -1,13 +1,88 @@
+
+/** Commmon overloading **/
+
+a {
+	text-decoration:none
+}
+
+a:active {
+	text-decoration:none
+}
+
+a:visited {
+	text-decoration:none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+.well-large {
+	margin-top: 70px;
+}
+
+.well-large {
+	margin-top: 70px;
+}
+
+.well {
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
 body {
 	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
 	font-size: small;
-	background-color: #f7f5f5;
 }
+
+/** end of common **/
 
 #allcontent {
 	padding: 5px 15px;
-	background-color: #f7f5f5;
-	
+/*	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+	border-top: 0;*/
+}
+
+
+/** Header **/
+
+.logo{
+	width: 174px;
+	height: 100px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+}
+.center-header {
+	margin-left: 80px;
+	padding-top: 35px;
+}
+
+.header {
+	height: 120px;
+	background-color: red;
+}
+
+.center-text {
+	margin-top: 15px;
+}
+
+
+.call-top{
+font-weight: bold;
+font-size: 22px;
+/*padding-right: 60px;*/
+margin-top: 7px;
+
+}
+.call-top-text{
+	padding-top: 7px;
 }
 
 .calldescription {
@@ -17,22 +92,31 @@ body {
 
 }
 
-.sidecheck.well{
-	margin-bottom: 10px;
+/** sidechecks **/
+.sidecheck {
+	margin-bottom: 15px;
 	margin-top: 15px;
-	color: #1f6377;
 	font-weight: bold;
 	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 14px;
+}
+
+.sidecheck img {
+	float: left;
+	padding-left: 5px;
+}
+
+.sidechecks {
+	width: 250px;
+
 }
 
 .intro {
 	padding-top: 20px;
-}
-
-.logo {
-	background-image: url("../img/toyota.gif");
-	background-repeat: no-repeat;
-	height: 75px;
+	margin-top: 12px;
+	width: 936px;
 }
 
 .ideas {
@@ -43,58 +127,58 @@ body {
 	font-size: 2em;
 }
 
+.point{
+	text-align: center;
+}
+
+.actions{
+	padding: 0;
+
+}
 
 .action {
-	/*border-width: 1px;
-	border-color: grey;
-	border-style: dotted;*/
 	margin-top: 40px;
+	margin-right: 8px;
+	margin-left: 8px;
 	line-height: 25px;
+
 }
+
 
 .counter {
 	margin-top: 10px;
 }
 
-.reasons{
+.reasons {
 	margin-top: 50px;
 }
 
 .sidebar {
-	/*border-left: thin dotted grey;*/
 	margin-left: 19px;
 }
 
-.bait {
-	color: rgb(233, 21, 21);
-}
 h4.bait {
 	text-decoration: underline;
-}
-
-.info{
-	color: #1f6377;
 }
 
 .comments {
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-.additional-comment{
+.additional-comment {
 	display: none;
 }
-.summary-comment{
+.summary-comment {
 	font-style: italic;
 
 }
-.author{
+.author {
 	margin-top: 20px;
 }
 
-.span8 h4{
+.span8 h4 {
 	text-align: center;
 	margin-bottom: 30px;
-	color: #1f6377;
 }
 
 .step{
@@ -104,54 +188,52 @@ h4.bait {
 	position: center;
 
 }
-a {
-color:#1f6377;
-text-decoration:none
-}
-a:active {
-color:#1f6377;
-text-decoration:none
-}
-a:visited {
-color:#5bc0de;
-text-decoration:none
-}
-a:hover {
-color:#666;
-text-decoration: underline
-}
  
+ /** Verse content **/
+ .verse-content {
+ 	padding: 0 15px;
+ }
+
 .aim{
-	border: solid thin rgb(233, 21, 21);
-	margin-left: 0px;
-	/*padding-left: 10px;
-	padding-right: 0px;*/
+	margin-left: 0;
 	margin-top: 40px;
+	padding: 10px 20px;
 }
+
+
+li{
+	list-style-type: none;
+}
+
+.princips-list li, .reasons-list li {
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/** footerone **/ 
 
 .footerone{
 	margin-top: 50px;
 }
 
-.princips-list li {
-	list-style: none;
+.step {
+	width: 125px;
+	float: left;
+	margin-left: 25px;
 }
 
-.princips-list li, .reasons-list li {
-	margin-top: 7px;
-	margin-bottom: 7px;
+
+/** footer **/
+
+.footer {
+	height: 120px;
+	background-color: red;
+}
+.footer p {
+	margin: 20px 0;
 }
 
-.well-large{
-	margin-top: 70px;
+.solidtext{
+	font-weight: bold;
 }
-
-/*** FORM STYLES ***/
-/*.application .control-group {
-	width: 120px;
-
-}
-
-.application .controls {
-	margin-left: 150px;
-}*/

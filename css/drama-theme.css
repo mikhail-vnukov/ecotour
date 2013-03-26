@@ -1,0 +1,103 @@
+body {
+	background-color: #5f446f;
+	color: rgb(11, 70, 24);
+	font-size: 16px;
+	/*background-image: url(../photo/bg.jpg); 
+margin: 0; 
+padding: 0; 
+background-attachment: fixed; 
+background-position: center top;*/ 
+}
+
+#allcontent {
+	background-color: rgb(242, 244, 248);
+}
+
+.sidecheck.well{
+	color: rgb(74, 54, 87);
+	background-color: rgb(253, 248, 253);
+	border: outset #5f446f;
+	margin-top: 0;
+}
+
+.header {
+	background-color: rgb(241, 236, 248);
+
+}
+.logo{
+	background-image: url("../img/logo-drama.gif");
+}
+
+.verse-content{
+	background-color: rgba(230, 211, 226, 0.68);
+
+}
+.bait {
+	color: #c81f48;
+}
+
+
+
+.point{
+	color: rgb(15, 105, 35);
+	text-align: center;
+}
+
+a {
+	color: rgb(18, 57, 68);
+}
+
+a:active {
+	color:#1f6377;
+}
+
+a:visited {
+	color:#5bc0de;
+}
+
+a:hover {
+	color:#666;
+}
+
+.aim {
+	border: outset medium #5f446f;
+	background-color: rgb(253, 248, 253);
+}
+
+.intro {
+	background-color: rgba(230, 211, 226, 0.68);
+}
+
+.footer{
+	background-color: rgb(216, 194, 211);
+}
+
+.action{
+	background-color: rgba(178, 191, 225, 0.57);
+	border: medium #5f446f outset;
+	color: rgb(18, 57, 68);
+	font-size: 16px;
+
+}
+
+.actions.well{
+	background-color: rgba(230, 211, 226, 0.68);
+
+}
+
+.actiontitle{
+	text-decoration: underline;
+}
+
+.reasons{
+	border-top: thin dotted gray;
+	border-bottom: thin dotted gray;
+}
+
+.comments{
+	 background-color: rgba(230, 211, 226, 0.68);
+}
+
+.application{
+	background-color: rgb(253, 248, 253);
+}
