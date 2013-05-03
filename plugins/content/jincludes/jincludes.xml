@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+	
+	<!-- SCROLL TO THE END OF THIS FILE IF YOU WANT TO ADD MORE SNIPPETS -->
+	
+    <name>plg_content_jincludes</name>
+    <author>Andrea Azzini</author>
+    <creationDate>February 26, 2012</creationDate>
+    <copyright>(C) 2008 - 2012 Andrea Azzini</copyright>
+    <license>GNU GPL v.3 or later, see http://www.gnu.org/licenses/</license>
+    <authorEmail>andreazzini@gmail.com</authorEmail>
+    <authorUrl>http://joomlacode.org/gf/project/jincludes</authorUrl>
+    <version>1.0</version>
+	<!-- revision: $Id: jincludes.xml 72 2012-02-26 16:34:44Z endi $ -->
+    <description>PLG_CONTENT_JINCLUDES_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jincludes">jincludes.php</filename>
+		<folder>language</folder>
+    </files>
+	
+	<updateservers>
+		<server type="extension" priority="1" name="JIncludes update from JoomlaCode">http://joomlacode.org/gf/project/jincludes/scmsvn/?action=browse&amp;path=%2F*checkout*%2Fupdate-site%2Fjincludes-updates.xml</server>
+	</updateservers>
+	
+	
+	<!-- SCROLL TO THE END OF THIS FILE IF YOU WANT TO ADD MORE SNIPPETS -->
+	
+	<config>
+	<fields name="params">
+
+		<!-- GLOBAL PARAMETERS -->
+
+		<fieldset name="basic">
+			<field name="show_errors" type="radio" default="no" label="JI_SHOW_ERRORS" description="JI_SHOW_ERRORS_DESC">
+				<option value="no">JI_NO</option>
+				<option value="yes">JI_YES</option>
+			</field>
+			<field name="num_snippets" type="text" readonly="true" disabled="true" default="30" label="JI_NUMBER_OF_SNIPPETS" description="JI_NUMBER_OF_SNIPPETS_DESC"></field>
+		</fieldset>
+
+		<!-- SNIPPETS -->
+		
+		<fieldset name="snippet1" label="Snippet #1">
+			<field name="key1" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type1" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code1" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet2" label="Snippet #2">
+			<field name="key2" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type2" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code2" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet3" label="Snippet #3">
+			<field name="key3" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type3" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code3" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet4" label="Snippet #4">
+			<field name="key4" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type4" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code4" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet5" label="Snippet #5">
+			<field name="key5" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type5" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code5" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet6" label="Snippet #6">
+			<field name="key6" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type6" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code6" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet7" label="Snippet #7">
+			<field name="key7" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type7" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code7" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet8" label="Snippet #8">
+			<field name="key8" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type8" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code8" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet9" label="Snippet #9">
+			<field name="key9" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type9" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code9" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet10" label="Snippet #10">
+			<field name="key10" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type10" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code10" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet11" label="Snippet #11">
+			<field name="key11" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type11" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code11" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet12" label="Snippet #12">
+			<field name="key12" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type12" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code12" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet13" label="Snippet #13">
+			<field name="key13" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type13" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code13" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet14" label="Snippet #14">
+			<field name="key14" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type14" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code14" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet15" label="Snippet #15">
+			<field name="key15" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type15" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code15" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet16" label="Snippet #16">
+			<field name="key16" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type16" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code16" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet17" label="Snippet #17">
+			<field name="key17" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type17" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code17" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet18" label="Snippet #18">
+			<field name="key18" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type18" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code18" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet19" label="Snippet #19">
+			<field name="key19" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type19" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code19" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet20" label="Snippet #20">
+			<field name="key20" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type20" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code20" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet21" label="Snippet #21">
+			<field name="key21" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type21" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code21" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet22" label="Snippet #22">
+			<field name="key22" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type22" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code22" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet23" label="Snippet #23">
+			<field name="key23" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type23" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code23" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet24" label="Snippet #24">
+			<field name="key24" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type24" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code24" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet25" label="Snippet #25">
+			<field name="key25" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type25" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code25" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet26" label="Snippet #26">
+			<field name="key26" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type26" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code26" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet27" label="Snippet #27">
+			<field name="key27" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type27" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code27" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet28" label="Snippet #28">
+			<field name="key28" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type28" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code28" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<fieldset name="snippet29" label="Snippet #29">
+			<field name="key29" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type29" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code29" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+		
+		<!-- last stanza (#30) -->
+		
+		<fieldset name="snippet30" label="Snippet #30">
+			<field name="key30" type="text" default="" label="JI_KEY" description="JI_KEY_DESC"></field>
+			<field  name="type30" type="list" default="html" label="JI_TYPE" description="JI_TYPE_DESC">
+				<option value="html">JI_SNIPPET_TYPE_HTML</option>
+				<option value="html_ext">JI_SNIPPET_TYPE_HTML_EXT</option>
+				<option value="php">JI_SNIPPET_TYPE_PHP</option>
+				<option value="php_ext">JI_SNIPPET_TYPE_PHP_EXT</option>
+				<option value="phpblock">JI_SNIPPET_TYPE_PHP_BLOCK</option>
+				<option value="phpblock_ext">JI_SNIPPET_TYPE_PHP_BLOCK_EXT</option>
+				<option value="style_ext">JI_SNIPPET_TYPE_CSS</option>
+				<option value="script_ext">JI_SNIPPET_TYPE_JAVASCRIPT</option>
+			</field>
+			<field  name="code30" type="textarea" filter="raw" cols="50" rows="15" default="" label="JI_CODE" description="JI_CODE_DESC"></field>
+		</fieldset>
+
+		<!-- HOW TO ADD MORE THAN 30 SNIPPETS -->
+		
+		<!-- INSTRUCTIONS:
+		
+		1) Make copies the last <fieldset> stanza above (#30) and paste them below this comment, 
+			before </fields>. Each new copy you make is one more snippet available.
+		2) change all the name="" attributes in each new stanza, numbering them 31, 32, 33 etc.
+			* key30 must become key31, key32, key33 etc...
+			* type30 must become type31, type32, type33 etc...
+			* code30 must become code31, code32, code33 etc...
+			Each new snippet must obviously have a consistent number, and you must not skip numbers.
+		2) edit the default="" attribute of the num_snippets parameter at the begginning of this file,
+			to match the new total number of stanzas in this file i.e. the index number of the last snippet.
+			Eg. if you add 4 stanzas, the last one is #34, and num_snippets must have default="34"
+		
+		Then save this file to its original location on your server.
+		You should find the new snippets available in the Joomla! backend / Plugin manager.
+		
+		-->
+			
+	</fields>	
+	</config>
+	
+</extension>
